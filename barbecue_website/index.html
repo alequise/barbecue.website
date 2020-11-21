@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alex Lima">
+    <title>barbecue_website</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/designsystem.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./imgs/favicon-32x32.png">
+</head>
+<body>
+    <header class="header-menu">
+        <nav class="nav_menu wrap-content">
+            <div class="logo-header">
+                <img src="./imgs/mainlogo.svg" alt="Main logo's Company">
+            </div>
+            <div class="group_item_menu">
+                <a class="item_menu ease-in" href="#">HOT DEALS</a>
+                <a class="item_menu ease-in" href="#">MENU</a>
+                <a class="item_menu ease-in" href="#">ABOUT US</a>
+                <a class="item_menu ease-in" href="#">CONTACT</a>
+            </div>
+            <div class="right_side">
+                <svg id="shopping_bag-24px" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <rect id="Rectangle_41" data-name="Rectangle 41" width="24" height="24" fill="none"/>
+                    <path id="Path_231" data-name="Path 231" d="M18,6H16A4,4,0,0,0,8,6H6A2.006,2.006,0,0,0,4,8V20a2.006,2.006,0,0,0,2,2H18a2.006,2.006,0,0,0,2-2V8A2.006,2.006,0,0,0,18,6ZM12,4a2.006,2.006,0,0,1,2,2H10A2.006,2.006,0,0,1,12,4Zm6,16H6V8H8v2a1,1,0,0,0,2,0V8h4v2a1,1,0,0,0,2,0V8h2Z" fill="#f7fafc"/>
+                </svg>
+                <a class="item_menu ease-in" href="tel:#">+351 345 765 098</a>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="img-hero">
+            <div class="text-container wrap-content">
+                <div class="location">
+                    <svg id="location_on-24px" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path id="Path_263" data-name="Path 263" d="M0,0H24V24H0Z" fill="none"/>
+                        <path id="Path_264" data-name="Path 264" d="M12,2A7,7,0,0,0,5,9c0,4.17,4.42,9.92,6.24,12.11a.993.993,0,0,0,1.53,0C14.58,18.92,19,13.17,19,9A7,7,0,0,0,12,2Zm0,9.5A2.5,2.5,0,1,1,14.5,9,2.5,2.5,0,0,1,12,11.5Z" fill="#fe043c"/>
+                    </svg><span class="location-text">London, United Kingdom</span>
+                </div>
+                <div class="text-hero">
+                    <h1 class="heading-hero">Be welcome! Let's eat, drink & enjoy.</h1>
+                    <form class="form-hero" action="#" class="niceform">
+                        <input class="input-hero" id="myEmail" type="email" name="email" placeholder="Enter here your delivery address" />
+                        <button onclick="myFunction()" class="btn btn_hero btn-std-alt" ><svg xmlns="http://www.w3.org/2000/svg" width="20" height="14.914" viewBox="0 0 20 14.914">
+                            <path id="check-solid" d="M6.793,79.72l-6.5-6.5a1,1,0,0,1,0-1.414l1.414-1.414a1,1,0,0,1,1.414,0L7.5,74.77l9.379-9.379a1,1,0,0,1,1.414,0l1.414,1.414a1,1,0,0,1,0,1.414l-11.5,11.5a1,1,0,0,1-1.414,0Z" transform="translate(0 -65.098)" fill="#currentColor"/>
+                          </svg><span class="text-btn-hero">FIND ME</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <section class="deals-section wrap-content">
+            <div class="deal-headline">
+                <h1 class="highlight-text label-std">hot deals</h1>
+                <h2 class="deals-title title-std">Here goes nothing.</h2>
+                <p class="deals-text text-std">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+            </div>
+            <div class="card-row">
+                <div class="card card-food">
+                        <img class="img-card" src="./imgs/cards/ribs-img.jpg" alt="Pork ribs on barbecue sauce">
+                        <div class="container">
+                            <div class="card-group-text">
+                                <h3 class="card-title">Pork Ribs barbecue</h3> 
+                                <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p> 
+                            </div>
+                            <div class="card-price-group">
+                                <div class="card-price">
+                                    <p class="price-old">15,90</p>
+                                    <p class="price-new">$13,90</p>
+                                </div>
+                                <button class="btn btn-card">
+                                    <span>add to card<svg class="icon-arrow" id="navigate_next-24px" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path id="Path_229" data-name="Path 229" d="M0,0H24V24H0Z" fill="none"/><path id="Path_230" data-name="Path 230" d="M10,6,8.59,7.41,13.17,12,8.59,16.59,10,18l6-6Z" fill="currentColor"/></svg> </span>
+                                </button>
+                            </div>
+                        </div> 
+                </div>
+                <div class="card card-food">
+                    <img class="img-card" src="./imgs/cards/burguer-img.jpg" alt="Giant double meat Burguer with cheese and french fries next to">
+                    <div class="container">
+                        <div class="card-group-text">
+                            <h3 class="card-title">Double Cheddar</h3> 
+                            <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p> 
+                        </div>
+                        <div class="card-price-group">
+                            <div class="card-price">
+                                <p class="price-old">11,90</p>
+                                <p class="price-new">$9,90</p>
+                            </div>
+                            <button class="btn btn-card">
+                                <span>add to card<svg class="icon-arrow" id="navigate_next-24px" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path id="Path_229" data-name="Path 229" d="M0,0H24V24H0Z" fill="none"/><path id="Path_230" data-name="Path 230" d="M10,6,8.59,7.41,13.17,12,8.59,16.59,10,18l6-6Z" fill="currentColor"/></svg> </span>
+                            </button>
+                        </div>
+                    </div> 
+                </div>
+                <div class="card card-food">
+                <img class="img-card" src="./imgs/cards/ribs-img.jpg" alt="Pizza plavor Marguerita with spices and tomatos around">
+                <div class="container">
+                    <div class="card-group-text">
+                        <h3 class="card-title">Pizza Margherita extra</h3> 
+                        <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p> 
+                    </div>
+                    <div class="card-price-group">
+                        <div class="card-price">
+                            <p class="price-old">17,90</p>
+                            <p class="price-new">$15,90</p>
+                        </div>
+                        <button class="btn btn-card">
+                            <span>add to card<svg class="icon-arrow" id="navigate_next-24px" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path id="Path_229" data-name="Path 229" d="M0,0H24V24H0Z" fill="none"/><path id="Path_230" data-name="Path 230" d="M10,6,8.59,7.41,13.17,12,8.59,16.59,10,18l6-6Z" fill="currentColor"/></svg> </span>
+                            
+                        </button>
+                    </div>
+                </div> 
+                </div>
+            </div>
+        </section>
+        <section class="menu-section">
+            <div class="bg-menu-section"> 
+                <div class="wrap-content display-flex">
+                    <div class="side">
+                        <div class="grid-side">
+                            <div class="mini-card">
+                                <img src="./icons/cake.svg" alt="Icon of a cupcake and a piece of cake">
+                                <p class="mini-name">Desserts</p>
+                            </div>
+                            <div class="none"></div>
+                            <div class="mini-card">
+                                <img src="./icons/coffee-cups.svg" alt="Icon of a cup of coffee with a delicious donut">
+                                <p class="mini-name">Coffees</p>
+                            </div>
+                            <div class="none"></div>
+                            <div class="none"></div>
+                            <div class="mini-card">
+                                <img src="./icons/burger.svg" alt="Icon of a cupcake and a piece of cake">
+                                <p class="mini-name">Burguers</p>
+                            </div>
+                            <div class="none"></div>
+                            <div class="mini-card">
+                                <img src="./icons/barbecue.svg" alt="Icon of a burguer and a grill">
+                                <p class="mini-name">Barbecue</p>
+                            </div>
+                            <div class="mini-card">
+                                <img src="./icons/spaghetti.svg" alt="Icon of a cupcake and a piece of cake">
+                                <p class="mini-name">Pastas</p>
+                            </div>
+                            <div class="none"></div>
+                            <div class="mini-card">
+                                <img src="./icons/soft-drink.svg" alt="Icon of a cupcake and a piece of cake">
+                                <p class="mini-name">Drinks</p>
+                            </div>
+                            <div class="none"></div>
+                        </div>
+                    </div>
+                    <div class="side">
+                        <div class="menu-headline">
+                            <h1 class="highlight-text label-std">menu</h1>
+                            <h2 class="deals-title wrap-title title-std">It's not just food, it's an experience.</h2>
+                            <p class="menu-text wrap-text text-std">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            <button class="btn btn-std">
+                                <span>explore all dishes</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </section>
+        <section class="contact-section">
+            <div class="bg-contact">
+                <div class="wrap-content">
+                    <div class="card-contact">
+                        <h1 class="ct-card-title">Contacts</h1>
+                        <div class="card-contact-row">
+                            <div class="text-contact">
+                                <h2 class="subtext-std subtxt-crd">Phone number</h2>
+                                <p class="text-std">+351 345 765 098</p>
+                            </div>
+                            <div class="text-contact">
+                                <h2 class="subtext-std subtxt-crd">Social Media</h2>
+                                <p class="text-std">Facebook Instagram Linkedin</p>
+                            </div>
+                        </div>
+                        <div class="card-contact-row">
+                            <div class="text-contact">
+                                <h2 class="subtext-std subtxt-crd">Phone number</h2>
+                                <p class="text-std">+351 345 765 098</p>
+                            </div>
+                            <div class="text-contact">
+                                <h2 class="subtext-std subtxt-crd">Social Media</h2>
+                                <p class="text-std">Facebook Instagram Linkedin</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+
+<script>
+    function myFunction() {
+        document.getElementById("myEmail").placeholder = "Oh no, it's empty here :/";
+    }
+</script>
+</body>
+</html>

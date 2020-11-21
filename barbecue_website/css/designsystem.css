@@ -1,0 +1,89 @@
+:root {
+    --barbecue-red: #fe043c;
+    --dark-gray: #1A202C;
+    --dark-medium-gray: #2D3748;
+    --medium-gray: #4a5568;
+    --light-gray-4: #cbd5e0;
+    --light-gray-3: #e2e8f0;
+    --light-gray-2: #edf2f7;
+    --light-gray-1: #f7fafc;
+}  
+
+.title-std {
+    font-size: 72px;
+    font-weight: 900;
+    color: var(--dark-gray);
+}
+
+.text-std {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--dark-medium-gray);
+}
+
+.label-std {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: var(--barbecue-red);
+    letter-spacing: 9px;
+    font-weight: 400;
+}
+
+.subtext-std {
+    color: var(--dark-medium-gray);
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.btn {
+    transition: 0.3s ease-in;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    text-align: center;
+    font-weight: 700;
+    width: 248px;
+    height: 48px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.btn-std {
+    background-color: var(--barbecue-red);
+    color: var(--light-gray-1);
+}
+
+.btn-std:hover {
+    background-color: var(--dark-gray);
+    color: var(--light-gray-1);
+}
+
+.btn-std-alt {
+    background-color: var(--barbecue-red);
+    color: var(--light-gray-1);;
+}
+
+.btn-std-alt:hover {
+    background-color: var(--light-gray-1);
+    color: var(--dark-gray);
+}
+
+.ease-in {
+    transition: 0.4s ease-in;
+}
+
+.card {
+    transition: 0.4s ease-in-out; 
+    background-color: #ffffff;
+    box-shadow: 0px 0px 12px rgba(0,0,0,0.09);
+    border-radius: 12px;
+    text-align: left;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 24px rgba(0,0,0,0.2);    
+    transform: translateY(-3px);
+}
+

@@ -1,0 +1,327 @@
+html {
+    height: -webkit-fill-available;
+}
+body {
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    position: relative;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+}
+
+svg {
+    fill: currentColor;
+}
+
+.header-menu {
+    position: absolute;
+    z-index: 900;
+}
+
+.logo-header {
+    padding-right: 300px;
+}
+
+.right_side {
+    padding-left: 300px;
+}
+
+.nav_menu {
+    padding: 40px 0 40px;
+}
+
+.nav_menu,
+.group_item_menu {
+    display: flex;
+}
+
+.item_menu {
+    color: #fff;
+    padding: 24px;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.item_menu:hover{
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.location {
+    padding-top: 248px;
+}
+
+.wrap-content {
+    margin: 0 166px;
+}
+
+.img-hero {
+    background: url("../imgs/bg-hero.jpg") no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+.text-container {
+    max-width: 35vw;
+}
+
+.heading-hero {
+    font-size: 84px;
+    line-height: 96px;
+    font-weight: 900;
+    color: #fff;
+    margin: 0;
+    padding: 24px 0 60px;
+}
+
+.location-text {
+    color: #CBD5E0;
+    padding-bottom: 32px;
+}
+
+.text-hero {
+    padding-bottom: 248px;
+}
+
+.form-hero {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.input-hero {
+    font-size: 18px;
+    background-color: #2C2C2C;
+    border-radius: 3px 0 0 3px;
+    width: 422px;
+    height: 48px;
+    border: none;
+    color: #8D8D8D;
+    padding: 0 24px 0;
+}
+
+.btn_hero {
+    border-radius: 0 3px 3px 0 !important; 
+}
+
+
+.text-btn-hero {
+    padding-left: 9px;
+}
+
+/*---section 2---*/
+
+.deals-section {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.highlight-text {
+    padding-bottom: 20px;
+}
+
+.deals-title {
+    padding-bottom: 24px;
+}
+
+.menu-text {
+    padding-bottom: 36px;
+}
+
+.deals-text {
+    padding-bottom: 96px;
+}
+
+.card-row {
+    display: flex;
+    margin-bottom: 200px;
+    justify-content: space-between;
+}
+
+.card-food {
+    max-width: 500px;
+    min-height: 240px;
+}
+
+.container {
+    padding: 24px 24px;
+}
+
+.card-title, 
+.card-text,
+.price-old,
+.price-new  {
+    margin: 0;
+}
+
+.card-title { 
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--dark-gray);
+    padding-bottom: 10px;
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--dark-medium-gray);
+    padding-bottom: 24px;
+}
+
+.card-price-group {
+    display: flex;
+}
+
+.price-old {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--light-gray-4);
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+.price-new {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1A202C;
+    font-style: italic;
+    padding-right: 168px;
+}
+
+.btn-card {
+    color: var(--barbecue-red);
+    background: white;
+    margin-top: 20px;
+}
+
+.btn-card:hover {
+    color: var(--dark-gray);
+    background: white;
+}
+
+/*-----secton 3----*/
+
+.row-flex {
+    display: flex;
+}
+
+.side {
+    flex: 1;
+}
+
+.grid-side {
+    display: grid;
+    grid-template-columns: repeat(4, 160px);
+    grid-template-rows: repeat(3, 160px);
+    row-gap: 40px;
+}
+
+.menu-section {
+    margin-top: 200px;
+    padding-top: 200px;
+}
+
+.mini-card {
+    display: block;
+    text-align: center;
+    max-width: 160px;
+    min-height: 160px;
+    max-height: 160px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 6px rgba(0,0,0,0.06);
+    margin: -48px 0;
+    background: var(--light-gray-1);
+}
+
+.mini-card img {
+    padding-top: 44px;
+}
+
+.mini-card:hover .mini-name {
+    transition: .4s ease-in;
+    opacity: 1;
+    transform: translateY(18px);
+}
+
+.mini-card:hover {
+    min-height: 180px;
+    transition: .4s ease-in;
+    background: white;
+}
+
+.mini-name {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 12px;
+    color: var(--dark-medium-gray);
+    letter-spacing: 1.2px;
+    opacity: 0;
+}
+
+.bg-menu-section {
+    height: 700px;
+    background-color: var(--light-gray-2);
+}
+
+.menu-headline {
+    padding-top: 150px;
+    text-align: right;
+    float: right;
+}
+
+.wrap-title {
+    max-width: 725px;
+}
+
+.wrap-text {
+    max-width: 710px;
+}
+
+/*-----secton 4----*/
+
+.bg-contact {
+    background: url("../imgs/bg-contact.svg") no-repeat center;
+    background-size: cover;
+    position: relative;
+    padding-top: 340px;
+}
+
+.card-contact {
+    width: 780px;
+    height: 360px;
+    background-color: var(--light-gray-1);
+    box-shadow: 0px 0px 12px rgba(0,0,0,0.06);
+    padding: 48px;
+    text-align: left;
+}
+
+.ct-card-title {
+    color: #1A202C;
+    font-size: 36px;
+    font-weight: 900;
+    padding-bottom: 36px;
+}
+
+.subtxt-crd {
+    padding-bottom: 12px;
+}
+
+.card-contact-row {
+    display: flex;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.text-contact {
+    padding-bottom: 36px;
+}
+
+.text-contact:first-child {
+     padding-right: 60px;
+}
+
+

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="179" height="41" viewBox="0 0 179 41">
+  <g id="mainlogo" transform="translate(-165 -40)">
+    <text id="main" transform="translate(166 72)" fill="#e2e8f0" stroke="#e2e8f0" stroke-width="1" font-size="32" font-family="Gilroy-Semibold, Gilroy" font-weight="600" letter-spacing="0.048em"><tspan x="0" y="0">MAIN</tspan></text>
+    <text id="logo" transform="translate(248 72)" fill="#cbd5e0" stroke="#cbd5e0" stroke-width="1" font-size="32" font-family="Gilroy-Semibold, Gilroy" font-weight="600" letter-spacing="0.048em"><tspan x="0" y="0">LOGO</tspan></text>
+  </g>
+</svg>
